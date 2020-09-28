@@ -1,0 +1,23 @@
+<view class="m-profit">
+  <view class='profitNum'>
+    <text class='title'>我的余额</text>
+    <text class='h-title'>￥0</text>
+  </view>
+  <view class='profitList'>
+    <view class='list'>
+      <navigator url='m-profitDetail' hover-class='none'>
+        <text>收益明细</text> 
+        <image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+    <view class='list'>
+      <navigator url='m-profitDetail' hover-class='none'>
+        <text>提现明细</text> 
+        <image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+  </view>
+</view>
+<view class='txBtn'>
+  <navigator url='m-tixian'> 我要提现 </navigator>
+</view>

@@ -1,0 +1,7 @@
+<view class="m-activate">
+  <text>卡号</text>
+  <input placeholder="请输入您的会员卡号"  type='text' auto-focus />
+</view>
+<view class='confirm'>
+  <button>确定</button>
+</view>

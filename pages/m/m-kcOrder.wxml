@@ -1,0 +1,113 @@
+ <view class='m-kcOrder'>   
+    <view class='listBox'>
+      <view class='title'>
+        <text>订单编号：20145969696969669</text>
+        <text>订单时间：2018-02-23</text>
+      </view>
+      <view class='order-list'>
+        <image src='../index/img/caseImg1.jpg' class='image' />
+        <view class='order-intro'>
+          <view class='order-title'>
+            <text class='tip'>视频</text> 父亲的角色可以迟到但不能缺席父亲的角色可以迟到但不能缺席
+          </view>
+          <view class='oh'>
+            <text class='author'>林玟莹</text>
+            <text class='price'>实付：￥298</text>
+          </view>
+        </view>      
+      </view>
+      <view class='payBtn'>
+        <text class='cancle'>取消订单</text>
+        <text class='pay'>支付订单</text>
+      </view>
+    </view>
+    <view class='listBox'>
+      <view class='title'>
+        <text>订单编号：20145969696969669</text>
+        <text>订单时间：2018-02-23</text>
+      </view>
+      <view class='order-list'>
+        <image src='../index/img/caseImg1.jpg' class='image' />
+        <view class='order-intro'>
+          <view class='order-title'>
+            <text class='tip'>视频</text> 父亲的角色可以迟到但不能缺席父亲的角色可以迟到但不能缺席
+          </view>
+          <view class='oh'>
+            <text class='author'>林玟莹</text>
+            <text class='price'>实付：￥298</text>
+          </view>
+        </view>      
+      </view>
+      <view class='payBtn'>
+        <text class='cancle'>取消订单</text>
+        <text class='pay'>支付订单</text>
+      </view>
+    </view>
+    <view class='listBox'>
+      <view class='title'>
+        <text>订单编号：20145969696969669</text>
+        <text>订单时间：2018-02-23</text>
+      </view>
+      <view class='order-list'>
+        <image src='../index/img/caseImg1.jpg' class='image' />
+        <view class='order-intro'>
+          <view class='order-title'>
+            <text class='tip'>视频</text> 父亲的角色可以迟到但不能缺席父亲的角色可以迟到但不能缺席
+          </view>
+          <view class='oh'>
+            <text class='author'>林玟莹</text>
+            <text class='price'>实付：￥298</text>
+          </view>
+        </view>      
+      </view>
+      <view class='payBtn'>
+        <text class='cancle'>取消订单</text>
+        <text class='pay'>支付订单</text>
+      </view>
+    </view>
+    <view class='listBox'>
+      <view class='title'>
+        <text>订单编号：20145969696969669</text>
+        <text>订单时间：2018-02-23</text>
+      </view>
+      <view class='order-list'>
+        <image src='../index/img/caseImg1.jpg' class='image' />
+        <view class='order-intro'>
+          <view class='order-title'>
+            <text class='tip'>视频</text> 父亲的角色可以迟到但不能缺席父亲的角色可以迟到但不能缺席
+          </view>
+          <view class='oh'>
+            <text class='author'>林玟莹</text>
+            <text class='price'>实付：￥298</text>
+          </view>
+        </view>      
+      </view>
+      <view class='payBtn'>
+        <text class='cancle'>取消订单</text>
+        <text class='pay'>支付订单</text>
+      </view>
+    </view>
+    <view class='listBox'>
+      <view class='title'>
+        <text>订单编号：20145969696969669</text>
+        <text>订单时间：2018-02-23</text>
+      </view>
+      <view class='order-list'>
+        <image src='../index/img/caseImg1.jpg' class='image' />
+        <view class='order-intro'>
+          <view class='order-title'>
+            <text class='tip'>视频</text> 父亲的角色可以迟到但不能缺席父亲的角色可以迟到但不能缺席
+          </view>
+          <view class='oh'>
+            <text class='author'>林玟莹</text>
+            <text class='price'>实付：￥298</text>
+          </view>
+        </view>      
+      </view>
+      <view class='payBtn'>
+        <text class='cancle'>取消订单</text>
+        <text class='pay'>支付订单</text>
+      </view>
+    </view>
+
+ </view>

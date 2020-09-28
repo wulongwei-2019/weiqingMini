@@ -1,0 +1,15 @@
+<view class='m-attention'>
+  <view class='attention' wx:for="{{recordList}}" >
+    <view class='fl' data-id='{{item.expert_id}}' bindtap="navs">
+      <view class='avatar'>
+         <image src='{{item.ePic}}' class='avatarImg' />
+         <image src='../index/img/cjV.png' class='cjV' />
+      </view>
+      <view class='zj-gz'>
+         <text class='title'>{{item.eNickName}}</text>
+         <text class='gzTime'>关注时间：{{time}}</text>
+      </view>
+    </view>
+    <text  data-eid="{{item.expert_id}}" class="fr" bindtap="gz" >取消关注</text>
+  </view>
+ </view>

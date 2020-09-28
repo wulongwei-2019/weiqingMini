@@ -1,0 +1,16 @@
+<view class='caseRecord'>
+   <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="bindDownLoad" bindscroll="scroll"> 
+    <view class='list' wx:for="{{recordList}}" wx:key="item" > 
+      <navigator url="../v/index?id={{item.id}}" class='oh' hover-class="none">
+        <image src="{{item.pic}}" class='indexCimg' />
+        <view class='content'>
+          <text class='cTitle'>{{item.name}}</text>
+          <view class='oh mt40'>
+            <text class='progress'>已学{{item.study_scale}}</text><text class='fr time'>上次学习：{{item.awh_add_datetime}}</text>
+          </view> 
+        </view>
+      </navigator>  
+    </view> 
+   </scroll-view> 
+
+</view> 

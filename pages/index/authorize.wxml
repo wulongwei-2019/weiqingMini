@@ -1,0 +1,7 @@
+<view class="authorize">
+  <view class='box'>
+    <view class='imgBox'><image src='img/authorize_img.png' class='icon' /></view>
+    <text class='tips'>需要您的授权才能使用哦！</text>
+  </view>
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">授权登录</button>
+</view>

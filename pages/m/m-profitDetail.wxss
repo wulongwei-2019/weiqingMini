@@ -1,0 +1,30 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.profitDetail .tab{ width: 100%; overflow: hidden; background-color: #fff; border-bottom: 1px solid #eee; position: fixed; left:0px; top:0px; z-index:99}
+.profitDetail .tab .swiper-tab-list{ width: 50%; text-align: center; float: left; height:80rpx; line-height:80rpx; font-size: 28rpx}
+.profitDetail .tab .on{ color: #FF7433; border-bottom:6rpx solid #FF7433} 
+.profitDetail .box .listBox{ background-color: #fff; margin-top: 80rpx}
+.profitDetail .box .listBox .list{ overflow: hidden; padding: 20rpx; border-bottom: 1px solid #eee}
+.profitDetail .box .listBox .list .fl .title{ font-size: 28rpx; display: block}
+.profitDetail .box .listBox .list .fl .h-title{ font-size: 24rpx; color: #666;display: block; margin-top: 10rpx}
+.profitDetail .box .listBox .list .fr{ color: #f00;font-size: 28rpx;margin-top:20rpx }
+
+
+
+
+
+
+
+
+
+
+
+
+

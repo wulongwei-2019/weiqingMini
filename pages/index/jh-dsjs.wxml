@@ -1,0 +1,20 @@
+<view class='jh-dsjs' >
+  <view class='attention' wx:for="{{recordList}}"  wx:key="">
+      <!-- <navigator url='jh-dsCenter?id={{item.expertid}}' hover-class="none" class='fl'> -->
+      <view class='fl' data-id='{{item.expertid}}' bindtap="navs">
+        <view class='avatar' >
+          <image src='{{item.pic}}' data-pic='{{item.pic}}'   class='avatarImg' />
+          <image src='../index/img/cjV.png' class='cjV' />
+        </view>
+        <view class='zj-gz'>
+          <text class='title'  >{{item.nick_name}}</text>
+          <text class='gzNum' >{{item.follow_num}}人关注</text>
+        </view>
+
+      </view>
+      <!-- </navigator> -->
+       <text data-ynfollow="{{item.yn_follow}}" data-eid="{{item.expertid}}" class="fr" bindtap="gz"  style='background-color:{{item.backgroundColor}}' >{{item.yn_follow}}</text>
+  </view>
+
+
+  </view>

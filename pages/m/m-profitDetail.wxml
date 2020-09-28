@@ -1,0 +1,136 @@
+<view class="profitDetail">
+  <view class='tab'>
+      <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" hover-class="none"  data-current="0" bindtap="swichNav">
+        收益明细
+      </view>
+      <view hover-class="none" class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+          提现明细         
+      </view>    
+    </view>
+    <view class='box'>
+      <swiper current="{{currentTab}}" class="swiper-box kc-list" duration="300" style="height:{{winHeight+80}}px" bindchange="bindChange"> 
+        <swiper-item class='listBox'>
+          <scroll-view style='height:100%' scroll-y>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>收益</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+          </scroll-view>
+        </swiper-item>
+         <swiper-item class='listBox'>
+          <scroll-view style='height:100%' scroll-y>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            <view class='list'>
+              <view class='fl'>
+                <text class='title'>提现</text>
+                <text class='h-title'>2017-05-19 14:16:20</text>
+              </view>
+              <text class='fr'>+1000</text>
+            </view>
+            
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+
+</view>

@@ -1,0 +1,80 @@
+.fl{ float: left}
+.fr{ float: right; }
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.vedioMask{width: 100%; height:400rpx;position: fixed; top: 0px; left: 0px; z-index: 9999; background:url(https://m.jiahexueyuan.com/img/mask.png) no-repeat left center; background-size: 100% 100%;}
+.vedioMask .title{font-size: 30rpx; display:block; color: #fff;  text-align: center; margin-top: 120rpx}
+.vedioMask .oh{width: 100%; text-align: center}
+.vedioMask .oh navigator{ display: inline-block; margin-top: 30rpx; padding: 16rpx 30rpx; border-radius: 40rpx; font-size:28rpx;background-color: #f5c37a; color: #835512;}
+.audioBox{ width: 100%; height:400rpx; text-align: center; background-color: #f6f6f6}
+.audioBox audio{display: inline-block; width: 80%; margin: 100rpx 0 20rpx }
+.audioBox .progress{width:76%; margin: 10rpx auto }
+.audioBox .progress .title{font-size: 28rpx; display:block; text-align: left}
+.videoBox video{ display: block; width: 100%; height:400rpx}
+.videoDesc{ padding:16rpx 20rpx; background-color: #fff}
+.videoDesc .title{ font-size: 28rpx; display:block}
+.videoDesc .h-title{ font-size:26rpx; display:block; color: #999;margin-top: 16rpx}
+.videoDesc .oh{ padding: 20rpx 0rpx; margin-top: 20rpx; border-top: 1px solid #eee} 
+.videoDesc .oh .fl{ font-size: 24rpx; color: #999}
+.videoDesc .oh .price{ color: #f00; font-weight: bold; font-size: 32rpx}
+.videoDesc .oh .fr{font-size: 24rpx; color: #999; overflow: hidden}
+.videoDesc .oh .fr .play-num,.videoDesc .oh .fr .comment-num{ float: left}
+.videoDesc .oh .fr text{ display: inline-block}
+.attention{margin-top: 20rpx; overflow:hidden; background-color: #fff; padding: 20rpx}
+.attention .fl{ overflow: hidden}
+.attention .fl .avatar{ position: relative; width: 80rpx; height: 80rpx; float: left}
+.attention .fl .avatar .avatarImg{ width:78rpx; height: 78rpx; border-radius: 50%}
+.attention .fl .avatar .cjV{ width: 26rpx; height: 26rpx; position: absolute; right: 3rpx;bottom: 7rpx}
+.attention .fl .zj-gz{ float: left; margin-left: 20rpx}
+.attention .fl .zj-gz .title{ font-size: 28rpx;display: block}
+.attention .fl .zj-gz .gz{ color: #999; font-size: 24rpx;display: block; margin-top: 10rpx}
+.attention .fr{ color: #fff;font-size: 24rpx; background-color: #FF7433; border-radius:40rpx; padding: 10rpx 30rpx; margin-top: 15rpx}
+.kcContent{ background-color: #fff;margin-top: 20rpx; }
+.kcContent .titles{ display: block; font-size: 28rpx;padding: 20rpx; border-bottom: 1px solid #eee}
+.kcContent .box .list{ padding: 20rpx; border-bottom: 1px solid #eee; position: relative; }
+.kcContent .box .list image{ width:80rpx; height: 100rpx}
+.kcContent .box .list .content{ position: absolute; left: 120rpx; top:20rpx; width:78%}
+.kcContent .box .list .content .title{ font-size: 26rpx; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis}
+.kcContent .box .list .content .h-title{ font-size: 22rpx; display: block; color: #666; overflow: hidden; margin-top: 20rpx}
+.kcContent .box .list .content .h-title .fl{ margin-right: 20rpx}
+.kcContent .box .list .content .h-title .fr text{ display: block; color: #f00; text-align: right}
+
+.kcContent .box  image{ width: 100%; } 
+/* .commentFooter{ width: 100%; overflow: hidden; position: fixed; bottom: 0rpx; left: 0rpx; padding: 0rpx 20rpx;border-top: 1px solid #eee; background-color: #fff }
+.commentFooter .inputBox{ float: left; width:74%; padding: 15rpx 0rpx;}
+.commentFooter .inputBox .inputEdit{width:100%;padding:0rpx 10rpx ;font-size: 26rpx; height:60rpx;line-height:60rpx;border: 1px solid #e1e1e1;border-radius: 6rpx; white-space: inherit;  color: #999} 
+.commentFooter .pubBtn{ float: right; margin-right:5%} 
+.commentFooter .pubBtn text{display: inline-block;cursor: pointer;font-size: 26rpx; padding: 0rpx 20rpx;height:60rpx;line-height: 60rpx;border-radius: 6rpx;background-color: #fff;border: 1px solid #e1e1e1;margin-top: 14rpx;} */
+.footerBar{ width: 100%; overflow: hidden; position: fixed; bottom: -10rpx; left: 0rpx;color: #fff; background-color: #FF7433;height: 110rpx;line-height: 110rpx; text-align: center;font-size: 32rpx }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

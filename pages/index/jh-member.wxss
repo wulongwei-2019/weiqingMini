@@ -1,0 +1,19 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+page{ background-color: #F2F2F2;}
+.jh-member{ padding: 20rpx}
+.jh-member image{ width: 100%}
+.buyBtn{ width: 94%; padding: 20rpx; position: fixed; bottom: 20rpx}
+.buyBtn button{ background-color: #94733D; color: #fff; font-size: 28rpx}
+
+
+
+
+
+
+
+

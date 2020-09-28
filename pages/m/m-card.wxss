@@ -1,0 +1,33 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.m-card{ background-color: #fff}
+.m-card .bank-list{ padding: 20rpx; overflow: hidden; border-bottom: 1px solid #eee}
+.m-card .bank-list .bankLogo{ width: 80rpx; height: 80rpx; float:left}
+.m-card .bank-list .bankDesc{ float: left; width: 80%; margin-left: 20rpx}
+.m-card .bank-list .bankDesc text{ display: block}
+.m-card .bank-list .bankDesc .title{ font-size: 28rpx}
+.m-card .bank-list .bankDesc .h-title{ font-size: 26rpx; color: #999}
+.addCard{ padding: 20rpx; margin-top: 20rpx}
+.addCard button{ background-color: #fff; color: #333; font-size: 28rpx; border: 1px solid #eee}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

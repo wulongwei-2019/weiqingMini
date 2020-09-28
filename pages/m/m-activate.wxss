@@ -1,0 +1,25 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.m-activate{ background-color: #fff; padding:10rpx 20rpx; overflow: hidden}
+.m-activate text{ float: left; font-size: 28rpx; height: 80rpx; line-height: 80rpx}
+.m-activate input{ float: left; height: 80rpx; line-height: 80rpx; margin-left: 20rpx;width: 86%; font-size: 26rpx; padding-left: 10rpx; color: #999}
+.confirm{ margin-top: 20rpx; padding: 0rpx 20rpx}
+.confirm button{ margin: 0 auto; background-color: #FF7434; color: #fff; border: none; font-size: 28rpx}
+
+
+
+
+
+
+
+
+
+

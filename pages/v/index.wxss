@@ -1,0 +1,69 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.db{ display:block}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.kecheng .banner{width: 100%; height:360rpx; position: relative; background-color: #fff}
+.kecheng .banner image{ width: 100%; height:100%}
+.kecheng .banner .click{ width:240rpx; padding: 18rpx 0rpx; background: rgba(0, 0, 0, .6);color: #fff;border-radius: 60rpx;
+position: absolute;left: 50%;margin-left: -120rpx;top:130rpx;z-index: 99; font-size: 28rpx; text-align: center}
+.kecheng .banner .click image{ display: inline-block; width: 40rpx; height: 40rpx; vertical-align: middle; margin-right: 6rpx}
+.kecheng .kc-title{ background-color: #fff; padding: 20rpx}
+.kecheng .kc-title .title{ font-size: 30rpx;display: block}
+.kecheng .kc-title .h-title{ font-size: 28rpx; color: #999; margin: 10rpx 0rpx 10rpx;display: block; border-bottom: 1px solid #f2f2f2; padding-bottom: 10rpx }
+.kecheng .kc-title .price{ color: #999; font-size: 28rpx;}
+.kecheng .kc-title .price text{ color: #f00; font-weight: bold;font-size: 32rpx}
+.kecheng .kc-title .oh .fl,.kecheng .kc-title .oh .fr{ font-size: 26rpx;color: #999}
+.attention{ margin-top: 20rpx; overflow: hidden; background-color: #fff; padding: 20rpx}
+.attention .fl{ overflow: hidden; width:78%}
+.attention .fl .avatar{ position: relative; width: 80rpx; height: 80rpx; float: left}
+.attention .fl .avatar .avatarImg{ width:78rpx; height: 78rpx; border-radius: 50%}
+.attention .fl .avatar .cjV{ width: 26rpx; height: 26rpx; position: absolute; right: 3rpx;bottom: 7rpx}
+.attention .fl .zj-gz{ float: left; margin-left: 20rpx}
+.attention .fl .zj-gz .title{ font-size: 28rpx;display: block}
+.attention .fl .zj-gz .gz{ color: #999; font-size: 24rpx;display: block; margin-top: 10rpx}
+.attention .fr{ color: #fff;font-size: 24rpx; background-color: #FF7433; border-radius:40rpx; padding: 10rpx 0rpx; width: 140rpx; text-align: center; margin-top: 15rpx}
+.kcContent{ margin-top: 20rpx; background-color: #fff}
+.kcContent .tab{ overflow: hidden; border-bottom: 1px solid #eee}
+.kcContent .tab .swiper-tab-list{ float: left; width: 50%; text-align: center; font-size: 28rpx; height: 80rpx; line-height: 80rpx; color: #666}
+.kcContent .tab .on{ color: #FF7433; border-bottom:6rpx solid #FF7433} 
+.box .kc-list .list .lbox{ position: relative; padding: 20rpx; border-bottom: 1px solid #eee;}
+.box .kc-list .list image{ width:80rpx; height: 100rpx}
+.box .kc-list .list .content{ position: absolute; left: 120rpx; top:20rpx; width:78%}
+.box .kc-list .list .content .title{ font-size: 26rpx; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis}
+.box .kc-list .list .content .h-title{ font-size: 22rpx; display: block; color: #666; overflow: hidden; margin-top: 20rpx}
+.box .kc-list .list .content .h-title .fl{ margin-right: 20rpx}
+.box .kc-list .list .content .h-title .fr text{ display: block; color: #f00; text-align: right}
+
+.box .kc-intro image{ width: 100%; } 
+.footerBar{ width: 100%; overflow: hidden; position: fixed; bottom: -10rpx; left: 0rpx}
+.footerBar .collect{ float: left; width: 20%; text-align: center; padding: 15rpx 0rpx; border-top: 1px solid #eee; background-color: #fff}
+.footerBar .collect image{ width: 40rpx; height:40rpx;}
+.footerBar .collect text{ display: block; font-size: 26rpx}
+.footerBar .buyBtn{ width:80%; float: right; color: #fff; background-color: #FF7433; height: 110rpx;line-height: 110rpx; text-align: center;font-size: 32rpx}           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

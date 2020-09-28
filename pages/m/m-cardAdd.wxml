@@ -1,0 +1,29 @@
+<view class="m-cardAdd">
+  <view class='list card'>
+    <label>卡类型</label>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+      {{array[index]}}
+      </view>
+    </picker>
+  </view>
+  <view class='list'>
+    <label>持卡人</label>
+    <input type='text' placeholder='请输入持卡人姓名' />
+  </view>
+  <view class='list'>
+    <label>卡 号</label>
+    <input type='text' placeholder='请输入银行卡卡号' />
+  </view>
+  <view class='list'>
+    <label>手机号</label>
+    <input type='text' placeholder='请输入银行预留手机号' />
+  </view>
+  <view class='list'>
+    <label>证件号</label>
+    <input type='text' placeholder='请输入身份证号' />
+  </view>
+</view>
+<view class='confirm'>
+  <button>确认</button>
+</view>

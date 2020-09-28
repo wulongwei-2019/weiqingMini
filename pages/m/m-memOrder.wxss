@@ -1,0 +1,48 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.m-memOrder .tab{ overflow: hidden; background-color: #fff; border-bottom: 1px solid #eee; position: fixed; top: 0; left: 0; width: 100%; z-index: 99}
+.m-memOrder .tab .swiper-tab-list{ float: left; width: 33.33%; font-size: 28rpx; text-align: center; height: 80rpx; line-height: 80rpx}
+.m-memOrder .tab .on{color: #FF7433; border-bottom:6rpx solid #FF7433} 
+.m-memOrder .box{ margin-top: 80rpx;}
+.m-memOrder .box .list .listBox{ margin-bottom: 20rpx; background-color: #fff }
+.m-memOrder .box .list .title{ border-bottom: 1px solid #eee; font-size: 26rpx; padding:10rpx 20rpx 20rpx}
+.m-memOrder .box .list .title text{ display:block; color: #999; margin-top:10rpx}
+.m-memOrder .box .order-list{ padding: 20rpx; overflow: hidden;border-bottom: 1px solid #eee;}
+.m-memOrder .box .order-list .image{ width: 100rpx; height:100rpx; border-radius:10rpx; float: left}
+.m-memOrder .box .order-list .order-title{ float: left; font-size: 28rpx; line-height:40rpx; margin-left: 20rpx }
+.m-memOrder .box .order-list .order-title text{ color: #f00; font-weight: bold}
+.m-memOrder .box .order-list .fr .price{color: #f00; font-weight: bold; display: block; font-size: 28rpx;}
+.m-memOrder .box .order-list .fr .state{ color: #999; margin-top: 10rpx; font-size: 28rpx;}
+.m-memOrder .box .payBtn{text-align: right; padding: 20rpx 0rpx}
+.m-memOrder .box .payBtn .cancle{ margin-right: 20rpx; font-size: 24rpx;color: #999;border: 1px solid #e1e1e1;border-radius: 6rpx;padding: 10rpx 20rpx;}
+.m-memOrder .box .payBtn .pay{  margin-right: 20rpx;font-size: 24rpx;border-radius: 6rpx;padding: 10rpx 20rpx;background-color: #F56262;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

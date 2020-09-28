@@ -1,0 +1,14 @@
+<view class="m-finish">
+  <view class='finishTip'>
+    <image src='../index/img/finishIcon.png' class='finishIcon' />
+    <view class='desc'>
+      <text class='title'>提现申请已提交，等待处理</text>
+      <text class='h-title'>预计两个工作日内到账</text>
+    </view>
+  </view>
+</view>
+<view class='returnBtn'>
+  <navigator url='../index/index'>
+    <button>返回首页</button>
+  </navigator>
+</view>

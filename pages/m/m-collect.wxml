@@ -1,0 +1,13 @@
+<view class='caseRecord' >
+    <view class='list' wx:for="{{recordList}}"> 
+      <navigator  class='oh' hover-class="none">
+        <image src='{{item.pic}}' class='indexCimg' />
+        <view class='content'>
+          <text class='cTitle'>{{item.name}}</text>
+          <view class='oh mt40'>
+            <text class='author'>{{item.nick_name}}</text><text class='num'>{{item.play_number}}次浏览</text>
+          </view> 
+        </view>
+      </navigator>  
+    </view>
+</view>

@@ -1,0 +1,52 @@
+<view class="jh-dsCenter" >
+  <view class='attention'>
+        <view  class='fl' >
+        <view class='avatar'>
+         <image src='{{pic}}' class='avatarImg' id="pic" />
+          <image src='../index/img/cjV.png' class='cjV' />
+        </view>
+        <view class='zj-gz'>
+          <text class='title'>{{nick_name}}</text>
+          <text class='gzNum' >{{follow_num}}人关注</text>
+        </view>
+      </view>
+      <text data-ynfollow="{{yn_follow}}" data-eid="{{expertid}}" class="fr" bindtap="gz"  style='background-color:{{backgroundColor}}'>{{yn_follow}}</text>
+  </view>
+   <view class='content'>
+    <view class='tab'>
+      <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" hover-class="none"  data-current="0" bindtap="swichNav">
+        简介
+      </view>
+      <view hover-class="none" class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+          课程          
+      </view>    
+    </view>
+    <view class='box'>
+      <swiper current="{{currentTab}}" class="swiper-box kc-list" duration="300" style="height:{{winHeight}}px" bindchange="bindChange"> 
+        <swiper-item class='slist '>
+          <scroll-view style='height:100%' scroll-y>
+            <image src='{{msg}}' mode="widthFix" class='imageBox' />
+          </scroll-view>
+        </swiper-item>
+        <swiper-item class='slist'>
+          <scroll-view style='height:100%' scroll-y>
+            <view class='jh-jpkc'>
+              <view class='lists'  wx:for="{{kcList}}"> 
+                <navigator url="../v/index?id={{item.id}}" class='oh' hover-class="none">
+                  <image src='{{item.pic}}' class='indexCimg' />
+                  <view class='content'>
+                    <text class='cTitle'>{{item.name}}</text>
+                    <view class='oh mt10'>
+                      <text class='time'>{{item.add_datetime}}</text><text class='num'>{{item.play_number}}次观看</text><text class='fr price'>￥{{item.money}}</text>
+                    </view>
+                  </view>
+                </navigator>  
+              </view>
+            </view>
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+
+  </view> 
+</view>

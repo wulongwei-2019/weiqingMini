@@ -1,0 +1,41 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.attention{ overflow: hidden; background-color: #fff; padding: 20rpx; border-bottom: 1px solid #eee}
+.attention .fl{overflow:hidden}
+.attention .fl .avatar{ position: relative; width: 80rpx; height: 80rpx; float: left}
+.attention .fl .avatar .avatarImg{ width:78rpx; height: 78rpx; border-radius: 50%}
+.attention .fl .avatar .cjV{ width: 26rpx; height: 26rpx; position: absolute; right: 3rpx;bottom: 7rpx}
+.attention .fl .zj-gz{ float: left; margin-left: 20rpx}
+.attention .fl .zj-gz .title{ font-size: 28rpx;display: block}
+.attention .fl .zj-gz .gzTime{ color: #999; font-size: 24rpx;display: block; margin-top: 10rpx}
+.attention .fr{color:#fff;font-size: 24rpx; background-color:#FF7433; border-radius:40rpx; padding: 10rpx 20rpx; margin-top: 15rpx}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

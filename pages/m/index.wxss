@@ -1,0 +1,47 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.selfAvatar{background-color:#fff;box-shadow: 0px 0px 8px rgba(0,0,0,0.1);}
+.selfAvatar .avatar{ overflow: hidden; position: relative; border-bottom: 1px solid #F0F0F0}
+.selfAvatar .avatar .avatarImg{ width: 110rpx; height:110rpx; padding: 20rpx; float: left}
+.selfAvatar .avatar .avatarImg image{ width: 100%; height: 100%; border-radius: 50%}
+.selfAvatar .avatar .intro{ position: absolute; left: 150rpx; top: 20rpx;}
+.selfAvatar .avatar .intro .name{ display: block; font-size: 28rpx}
+.selfAvatar .avatar .intro .tips{ margin-top: 10rpx}
+/* .selfAvatar .avatar .intro .tips text{ display:inline-block; padding: 6rpx 20rpx; border-radius: 20rpx; font-size: 22rpx; color: #fff; background-color: #FF9B2A; margin-right:10rpx} */
+.selfAvatar .avatar .intro .tips .oh{padding: 6rpx 20rpx; border-radius: 20rpx; background-color: #FF9B2A;}
+.selfAvatar .avatar .intro .tips .oh text{ float: left;font-size: 22rpx; color: #fff; }
+.selfAvatar .avatar .intro .tips .mVip{ float: left;width: 25rpx; height: 25rpx; vertical-align: middle; margin-left: 10rpx; margin-top: 5rpx}
+.selfAvatar .avatar .self-set{ width: 46rpx; height:46rpx;position: absolute; right: 20rpx; top:10rpx}
+.selfAvatar .avatar .self-set image{ width: 100%; height: 100%}
+.selfAvatar .tabBox{ overflow: hidden; padding: 20rpx 0rpx}
+.selfAvatar .tabBox .list{ width: 33%; float: left; border-right: 1px solid #F0F0F0}
+.selfAvatar .tabBox .list text{ display: block; text-align: center}
+.selfAvatar .tabBox .list text.title{ font-size:26rpx; color: #8f8f94}
+.selfAvatar .tabBox .list text.Btitle{ font-size:28rpx; font-weight: bold; color: #666; margin-top: 4rpx}
+/* .self-list .list{ padding: 20rpx 10rpx; background: url(../index/img/self_arrow.png) no-repeat right center} */
+.self-list{ margin-top: 20rpx}
+.self-list .list{ overflow: hidden; padding: 30rpx 20rpx; background-color: #fff; border-bottom:1px solid #f2f2f2}
+.self-list .list text{float:left;font-size: 28rpx; display: inline-block; width: 90%}
+.self-list .list image{ float: right; width: 40rpx; height: 40rpx}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<view class="body">
+  <view class="vedioMask" hidden="{{mhid}}">
+				<text class="title">加入学习团或购买会员免费观看</text>
+				<view class="oh">
+					<navigator url='../index/jh-member' hover-class="none">购买会员298元</navigator>
+				</view>
+	</view>
+  <view class="videoBox" hidden="{{vhid}}" >
+    <video src="{{true_path}}"  controls='false'  poster="{{pic}}" ></video>
+  </view>
+  <view class="audioBox"  hidden="{{ahid}}">
+    <audio poster="{{pic}}" name="{{name}}" author="{{nick_name}}" src="{{true_path}}"  controls='false' loop='false' action="{{audioAction}}" bindplay="audioPlayed" bindtimeupdate="audioTimeUpdated"></audio>
+    <view class="progress">
+      <text class="title">进度</text>
+      <slider bindchange="timeSliderChanged" left-icon="cancel" right-icon="success_no_circle"/>
+    </view>
+  </view>
+  <view class='videoDesc'>
+    <text class='title'>{{name}}</text>
+    <text class='h-title'>{{msg}}</text>
+    <view class='oh'>
+      <text class='fl'>
+         <text class='price'>￥{{money}}</text>  /单课
+      </text>
+      <view class='fr'>
+        <text class='play-num'>{{play_number}}次播放数 | </text> 
+         <navigator url='comment' class='comment-num' hover-class="none"> 评论 <text>({{comment_num}})</text></navigator>
+      </view>
+    </view>
+  </view>
+  <view class='attention'>
+      <view class='fl' data-id='{{item.expertid}}' bindtap="navs">
+        <view class='avatar'>
+          <image src='{{epic}}' class='avatarImg' />
+          <image src='../index/img/cjV.png' class='cjV' />
+        </view>
+        <view class='zj-gz'>
+          <text class='title'>{{enick_name}}</text>
+          <text class='gz'><text>{{follow_num}}</text> 人关注</text>
+        </view>
+      </view>
+      <view class='fr' bindtap="gz"  data-idd="{{id}}" data-eid="{{expertid}}" data-ynfollow="{{yn_follow}}"  style='background-color:{{backgroundColor}}' >{{yn_follow}}</view>
+    </view>
+    <view class='kcContent'>
+      <text class='titles'>课程目录</text>
+      <view class='box'> 
+          <view class='list' wx:for="{{kList}}">
+            <navigator url='video?id={{item.id}}' hover-class="none">
+              <image src='{{item.kpic}}' class='num' />
+              <view class='content'>
+                <text class='title' style= 'color:{{item.colors}}'>{{item.name}}</text>
+                <text class='h-title'>
+                  <text class='fl'>{{item.add_datetime}}</text>
+                  <text class='fl'>{{item.play_number}}次观看</text>
+                  <text class='fr'>
+                    <text style= 'color:{{item.color}}'>￥{{item.money }}</text>
+                    <text style= 'color:{{item.color}}' >{{item.free}}</text>
+                  </text>
+                </text>
+              </view>
+            </navigator>
+          </view>
+      </view>
+    </view>
+    <view class='footerBar' bindtap="buybtn" hidden="{{bbhid}}">购买单课</view>
+    <!-- <view class='commentFooter'>
+      <view class='inputBox'>
+        <textarea class='inputEdit' contenteditable="true">说一下...</textarea>
+      </view>
+      <view class='pubBtn'>
+        <text>发表</text>
+      </view>       
+    </view> -->
+
+   
+
+
+</view>

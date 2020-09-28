@@ -1,0 +1,75 @@
+<view class="body">
+  <view class='selfAvatar'>
+    <view class='avatar'>
+      <navigator class='self-set' url='m-infoSet' hover-class="none"><image src='../index/img/self_set.png'  /></navigator>
+      <view class='avatarImg' bindtap="setPhotoInfo">
+        <image src='{{imgUrl}}' wx:if="{{imgUrl!=null}}" />
+        <image wx:else  src="{{pic}}" background-size="cover" />
+      </view>
+      <view class='intro'>
+        <text class='name'>{{nick_name}}</text>
+        <view class='tips'>
+          <view class='oh'>
+            <text>{{mname}}</text> 
+            <image src='../index/img/m_vip.png' class='mVip' hidden="{{hvip}}" />
+          </view> 
+        </view>
+      </view>
+    </view>
+    <view class='tabBox'>
+      <view class='list'>
+        <navigator url='m-collect' hover-class="none">
+          <text class='title'>收藏</text>
+          <text class='Btitle'>{{coursesCollect}}</text>
+        </navigator>
+      </view>
+      <view class='list'>
+        <navigator url='m-attention' hover-class="none">
+          <text class='title'>关注</text>
+          <text class='Btitle'>{{accountFollow}}</text>
+        </navigator>
+      </view>
+      <view class='list brn'>
+        <navigator url='m-message' hover-class="none">
+          <text class='title'>消息</text>
+          <text class='Btitle'>{{yn_news_info}}</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class='self-list'>
+    <!-- <view class='list'>
+      <navigator url='#' hover-class="none">
+        <text>我的学习团</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view> -->
+    <view class='list mt20'>
+       <navigator url='m-memOrder' hover-class="none">
+        <text>会员订单</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+    <view class='list'>
+       <navigator url='m-kcOrder' hover-class="none">
+        <text>我的课程订单</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+    <view class='list mt20'>
+       <navigator url='m-profit' hover-class="none">
+        <text>收益明细</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+     <view class='list'>
+       <navigator url='m-card' hover-class="none">
+        <text>我的银行卡</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+     <view class='list'>
+       <navigator url='m-activate' hover-class="none">
+        <text>家和会员卡激活</text><image src='../index/img/self_arrow.png' />
+      </navigator>
+    </view>
+  </view>
+
+
+
+</view>

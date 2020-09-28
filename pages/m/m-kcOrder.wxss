@@ -1,0 +1,47 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.clr{ clear: both}
+.m-kcOrder .listBox{ margin-bottom: 20rpx; background-color: #fff }
+.m-kcOrder .listBox .title{ border-bottom: 1px solid #eee; font-size: 26rpx; padding:10rpx 20rpx 20rpx}
+.m-kcOrder .listBox .title text{ display:block; color: #999; margin-top:10rpx}
+.m-kcOrder .listBox .order-list{ padding: 20rpx; overflow: hidden;border-bottom: 1px solid #eee;}
+.m-kcOrder .listBox .order-list .image{ width:180rpx;height:120rpx;border-radius:10rpx;float:left;}
+.m-kcOrder .listBox .order-list .order-intro{ float: left;margin-left: 20rpx; width: 70%; }
+.m-kcOrder .listBox .order-list .order-title{ font-size: 28rpx; line-height:40rpx; white-space: nowrap; overflow: hidden; text-overflow: ellipsis}
+.m-kcOrder .listBox .order-list .order-title .tip{ font-size: 20rpx; color: #fff; background-color: #FD8B8C; padding: 0rpx 6rpx}
+.m-kcOrder .listBox .order-list .oh{ margin-top: 20rpx}
+.m-kcOrder .listBox .order-list .oh .author{ float: left; color: #666; font-size: 24rpx}
+.m-kcOrder .listBox .order-list .oh .price{color: #f00; font-weight: bold; display: block; font-size: 28rpx; float: right}
+.m-kcOrder .listBox .payBtn{text-align: right; padding: 20rpx 0rpx}
+.m-kcOrder .listBox .payBtn .cancle{ margin-right: 20rpx; font-size: 24rpx;color: #999;border: 1px solid #e1e1e1;border-radius: 6rpx;padding: 10rpx 20rpx;}
+.m-kcOrder .listBox .payBtn .pay{  margin-right: 20rpx;font-size: 24rpx;border-radius: 6rpx;padding: 10rpx 20rpx;background-color: #F56262;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

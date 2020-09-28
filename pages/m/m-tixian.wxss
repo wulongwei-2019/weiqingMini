@@ -1,0 +1,43 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.m-tixian .cardChoose{  background-color: #fff;padding: 20rpx;}
+.m-tixian .cardChoose navigator{ overflow: hidden}
+.m-tixian .cardChoose .bankLogo{ float: left; width: 80rpx; height: 80rpx}
+.m-tixian .cardChoose  .bankDesc{ float: left; width: 80%; margin-left: 20rpx}
+.m-tixian .cardChoose  .bankDesc text{ display: block}
+.m-tixian .cardChoose  .bankDesc .title{ font-size: 28rpx}
+.m-tixian .cardChoose  .bankDesc .h-title{ font-size: 26rpx; color: #999}
+.m-tixian .cardChoose .arrow{ float: right; width: 40rpx; height: 40rpx; margin-top: 20rpx}
+.m-tixian .tixian-box{ background-color: #fff; margin-top: 20rpx; padding: 20rpx}
+.m-tixian .tixian-box .title{ font-size: 26rpx;color: #666}
+.m-tixian .tixian-box .number{ overflow: hidden; margin-top: 10rpx}
+.m-tixian .tixian-box .number label{ font-size: 40rpx; font-weight: bold; float: left;height: 60rpx; line-height: 60rpx}
+.m-tixian .tixian-box .number input{ float: left;  width:90%;  height: 60rpx; line-height: 60rpx; font-size: 36rpx}
+.m-tixian .tixian-box .oh{ padding-top: 20rpx; border-top: 1px solid #eee}
+.m-tixian .tixian-box .oh .fl{ font-size: 26rpx; color: #666}
+.m-tixian .tixian-box .oh .fr{ font-size: 26rpx; color: #FF7434}
+.txBtn{ padding: 20rpx; margin-top: 20rpx}
+.txBtn button{ background-color: #FF7434; color: #fff; font-size: 28rpx}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

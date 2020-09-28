@@ -1,0 +1,84 @@
+
+<view class='kecheng'>
+  <view class='boxHeight'>
+    <view class='banner'>
+      <view class='click'>
+        <view bindtap="djxx">
+          <image src='../index/img/click.png' /> 点击学习
+        </view>
+      </view>
+      <image src='{{pic}}' />
+    </view>
+    <view class='kc-title'>
+      <text class='title'>{{name}}</text>
+      <text class='h-title'>{{simple_msg}}</text>
+      <text class='price'>  <text>￥{{money}}</text> / 全系列 </text>
+      <view class='oh mt10'>
+        <text class='fl'>已更新 <text>{{num}}</text> 期 </text>
+        <text class='fr'><text>{{play_number}}</text>人已学</text>
+      </view>
+    </view>
+  </view>
+  <view class='attention'>
+    <view class='fl' data-id='{{item.expertid}}' bindtap="navs" >
+      <view class='avatar'>
+        <image src='{{epic}}'  class='avatarImg' />
+        <image src='../index/img/cjV.png' class='cjV' />
+      </view>
+      <view class='zj-gz'>
+        <text class='title'>{{nick_name}}</text>
+        <text class='gz' data-id="{{expertid}}"><text>{{follow_num}}</text> 人关注</text>
+      </view>
+    </view>
+    <view class='fr' bindtap="gz"  data-idd="{{id}}" data-eid="{{expertid}}" data-ynfollow="{{yn_follow}}"  style='background-color:{{backgroundColor}}'>{{yn_follow}}</view>
+  </view>
+  <view class='kcContent'>
+    <view class='tab'>
+      <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" hover-class="none"  data-current="0" bindtap="swichNav">
+        课程目录
+      </view>
+      <view hover-class="none" class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+          详情介绍          
+      </view>
+    </view>
+
+    <view class='box mb110' id='box'>
+      <swiper current="{{currentTab}}" class="swiper-box kc-list" duration="300" style="height:{{winHeight}}px" bindchange="bindChange"> 
+        <swiper-item class='list'>
+          <scroll-view style='height:100%' scroll-y>
+            <view class='lbox' wx:for="{{kList}}">
+              <navigator url='video?id={{item.id}}' hover-class="none">
+                <image src='{{item.kpic}}'  class='num' />
+                <view class='content'>
+                  <text class='title'>{{item.name}}</text>
+                  <text class='h-title'>
+                    <text class='fl'>{{item.add_datetime}}</text>
+                    <text class='fl'>{{item.play_number}}次观看</text>
+                    <text class='fr'>
+                      <text style= 'color:{{item.color}}'>￥{{item.money }}</text>
+                      <text style= 'color:{{item.color}}' >{{item.free}}</text>
+                    </text>
+                  </text>
+                </view>
+              </navigator>
+            </view>
+          </scroll-view>
+        </swiper-item>
+        <swiper-item class='kc-intro '>  
+          <scroll-view style='height:100%' scroll-y>       
+            <image src='{{msg}}'  mode="widthFix" />
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class='footerBar'>
+      <view class='collect' bindtap="collect" style='background-color:{{bgcolor}}'>
+        <image src='../index/img/collect_icon.png' mode="widthFix" />
+        <text style='color:{{color}}'>{{collectTip}}</text>
+      </view>
+      <view class='buyBtn' bindtap="buyBtns">{{buytip}}</view>       
+    </view>
+
+  </view>
+</view>
+

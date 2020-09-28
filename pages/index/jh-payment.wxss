@@ -1,0 +1,30 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+page{ background-color: #F2F2F2;}
+.payment .order-list{ background-color: #fff}
+.payment .order-list .list{ padding:25rpx 20rpx; overflow: hidden; font-size: 28rpx; border-bottom: 1px solid #eee}
+.payment .order-list .list .price{ color: #f00}
+.payment .pay-list{ margin-top: 20rpx; background-color: #fff}
+.payment .pay-list .list{ padding: 20rpx;overflow: hidden; border-bottom: 1px solid #eee}
+.payment .pay-list .list .logo{ width: 80rpx; height: 80rpx; float: left}
+.payment .pay-list .list .desc{ float: left; width:76%; margin-left: 20rpx}
+.payment .pay-list .list .desc text{ display: block;}
+.payment .pay-list .list .desc .title{ font-size: 30rpx}
+.payment .pay-list .list .desc .h-title{ font-size: 26rpx}
+.payment .pay-list .list .arrow{ float: right; width: 40rpx; height: 40rpx; margin-top: 20rpx}
+
+
+
+
+
+
+
+
+
+
+
+

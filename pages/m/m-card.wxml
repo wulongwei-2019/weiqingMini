@@ -1,0 +1,115 @@
+<view class="m-card">
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_jianshe.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国建设银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_gongshang.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国工商银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_guangda.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国光大银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_jiaotong.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国交通银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_minsheng.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国民生银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_youzheng.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国邮政银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_zhongguo.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+  <view class='bank-list'>
+    <image src='../index/img/bankLogo_zhongxin.png' class='bankLogo' />
+    <view class='bankDesc'>
+      <text class='title'>中国中信银行</text>
+      <text class='h-title'>尾号4668储蓄卡</text>
+    </view>
+  </view>
+
+</view>
+<view class='addCard'>
+<navigator url='m-cardAdd'> <button>添加银行卡</button></navigator>
+  
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

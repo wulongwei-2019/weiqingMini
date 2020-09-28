@@ -1,0 +1,8 @@
+<view class="jh-member">
+  <image src='img/member-img.png' mode="widthFix" />
+  <image src='img/member-img2.png' mode="widthFix" class='mt20' />
+</view>
+<view class='buyBtn'>
+<navigator url='jh-payment'><button>立即购买</button></navigator>
+  
+</view>

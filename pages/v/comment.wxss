@@ -1,0 +1,49 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.commentBox .title{ background-color: #fff; overflow: hidden; padding: 20rpx; border-bottom: 1px solid #eee}
+.commentBox .title .fl{ font-size: 28rpx}
+.commentBox .title .fr{ font-size: 24rpx; color: #406599}
+.commentBox .comment-listBox{ background-color: #fff}
+.commentBox .comment-listBox .list{ padding: 20rpx}
+.commentBox .comment-listBox .list .userInfo{ overflow: hidden}
+.commentBox .comment-listBox .list .userInfo image{ width: 80rpx; height: 80rpx; border-radius: 50%; float: left}
+.commentBox .comment-listBox .list .userInfo .name{ font-size: 28rpx; margin-left: 20rpx; float: left; line-height: 80rpx}
+.commentBox .comment-listBox .list .userInfo .time{font-size: 26rpx;margin-left:20rpx;color:#999;float:left;line-height: 80rpx}
+.commentBox .comment-listBox .list .comment-view{ font-size: 26rpx; margin-top: 20rpx}
+.commentBox .comment-listBox .list .reply{ margin-top: 20rpx}
+.commentBox .comment-listBox .list .reply text{ font-size: 26rpx; color: #406599}
+.commentBox .comment-listBox .list .reply .replyBtn{ margin-right: 20rpx}
+.commentBox .comment-listBox .list .replyBox{border: 1px solid #eee;background-color: #f8f8f8;padding:20rpx;margin-top:10px;}
+.commentBox .comment-listBox .list .replyBox .replyList{ margin-bottom: 20rpx}
+.commentBox .comment-listBox .list .replyBox .replyList .user{ font-size: 26rpx; color: #999}
+.commentBox .comment-listBox .list .replyBox .replyList text{ color: #406599; margin: 0rpx 10rpx}
+.commentBox .comment-listBox .list .replyBox .replyList .time{ color: #999}
+.commentBox .comment-listBox .list .replyBox .replyList .reply-view{ font-size: 28rpx; margin-top:14rpx}
+.commentFooter{ width: 100%; overflow: hidden; position: fixed; bottom: 0rpx; left: 0rpx; padding: 0rpx 20rpx;border-top: 1px solid #eee; }
+.commentFooter .inputBox{ float: left; width:74%; padding: 15rpx 0rpx; background-color: #fff}
+.commentFooter .inputBox .inputEdit{width:100%;padding:0rpx 10rpx ;font-size: 26rpx; height:60rpx;line-height:60rpx;border: 1px solid #e1e1e1;border-radius: 6rpx; white-space: inherit;  color: #999}
+.commentFooter .pubBtn{ float: right; margin-right: 5%} 
+.commentFooter .pubBtn text{display: inline-block;cursor: pointer;font-size: 26rpx; padding: 0rpx 20rpx;height:60rpx;line-height: 60rpx;border-radius: 6rpx;background-color: #fff;border: 1px solid #e1e1e1;margin-top: 14rpx;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

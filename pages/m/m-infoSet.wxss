@@ -1,0 +1,40 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.m-infoSet .bgwhite{background-color: #fff}
+.m-infoSet .list{ overflow: hidden; border-bottom: 1px solid #eee}
+.m-infoSet .list label{ width: 140rpx;float: left; height: 80rpx; line-height: 80rpx; font-size: 26rpx; padding: 0rpx 20rpx}
+.m-infoSet .list label text{ color: #f00; font-weight: bold}
+.m-infoSet .list input,.m-infoSet .list picker{ float: left; width: 76%; height: 80rpx; line-height: 80rpx;font-size: 26rpx; color: #999}
+.confirmBtn{ padding: 20rpx; margin-top: 20rpx}
+.confirmBtn button{ background-color: #FF7434; color: #fff; font-size: 28rpx}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

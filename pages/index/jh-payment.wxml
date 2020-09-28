@@ -1,0 +1,30 @@
+<view class="payment">
+  <view class='order-list'>
+    <view class='list'>
+      <text class='fl' >订单编号</text>
+      <text class='fr' id="ordernumber">0</text>
+    </view>
+    <view class='list'>
+      <text class='fl'>订单金额</text>
+      <text class='fr price' id="money">0.00</text>
+    </view>
+  </view>
+  <view class='pay-list'>
+    <view class='list' id="weixin">
+      <image src='img/payment_wx.png' class='logo' />
+      <view class='desc'>
+        <text class='title'>微信支付</text>
+        <text class='h-title'>微信安全支付</text>
+      </view>
+      <image src='img/self_arrow.png' class='arrow' />
+    </view>
+     <view class='list' id="zhifubao">
+      <image src='img/payment_zfb.png' class='logo' />
+      <view class='desc'>
+        <text class='title'>支付宝支付</text>
+        <text class='h-title'>安全急速支付</text>
+      </view>
+      <image src='img/self_arrow.png' class='arrow' />
+    </view>
+  </view>
+</view>

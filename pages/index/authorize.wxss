@@ -1,0 +1,19 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.authorize{ margin-top:150rpx}
+.authorize .box .imgBox{ text-align: center}
+.authorize .box .icon{  width:100rpx; height:110rpx}
+.authorize .box .tips{ margin-top: 20rpx; display: block; text-align: center; font-size: 28rpx}
+.authorize button{ margin: 140rpx 50rpx 0rpx;font-size: 30rpx}
+
+
+
+
+
+
+
+

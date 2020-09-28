@@ -1,0 +1,41 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.jh-dsjs .attention{ overflow:hidden; background-color: #fff; padding: 20rpx; border-bottom: 1px solid #eee}
+.jh-dsjs .fl{overflow:hidden;width:78%;}
+.jh-dsjs .fl .avatar{ position: relative; width: 80rpx; height: 80rpx; float: left}
+.jh-dsjs .fl .avatar .avatarImg{ width:78rpx; height: 78rpx; border-radius: 50%}
+.jh-dsjs .fl .avatar .cjV{ width: 26rpx; height: 26rpx; position: absolute; right: 3rpx;bottom: 7rpx}
+.jh-dsjs .fl .zj-gz{ float: left; margin-left: 20rpx;}
+.jh-dsjs .fl .zj-gz .title{ font-size: 28rpx;display: block}
+.jh-dsjs .fl .zj-gz .gzNum{ color: #999; font-size: 24rpx;display: block; margin-top: 10rpx}
+.jh-dsjs .fr{color:#fff;font-size: 24rpx; background-color:#FF7433; border-radius:40rpx; padding: 10rpx 0rpx; width: 140rpx; text-align: center; margin-top: 15rpx}
+.jh-dsjs .grey{ background-color: #ccc}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

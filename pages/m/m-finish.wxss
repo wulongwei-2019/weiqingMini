@@ -1,0 +1,26 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+.m-finish{ padding: 30rpx 0rpx}
+.m-finish .finishTip{ overflow: hidden; width: 420rpx; margin:40rpx auto 0px}
+.m-finish .finishTip .finishIcon{ width:80rpx; height: 80rpx; float: left }
+.m-finish .finishTip .desc{ float: left; margin-left: 20rpx}
+.m-finish .finishTip .desc .title{ font-size: 26rpx; display: block}
+.m-finish .finishTip .desc .h-title{ font-size: 26rpx; display: block; margin-top: 10rpx}
+.returnBtn{ padding: 20rpx; margin-top: 20rpx}
+.returnBtn button{ background-color: #FF7434; color: #fff; font-size: 28rpx}
+
+
+
+
+
+
+
+
+

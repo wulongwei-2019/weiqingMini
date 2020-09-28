@@ -1,0 +1,23 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+page{ background-color: #F2F2F2;}
+.caseRecord{  background-color: #fff}
+.caseRecord .list{ position: relative;overflow: hidden; padding: 20rpx; border-bottom: 1px solid #eee}
+.caseRecord .indexCimg{ width:180rpx; height: 120rpx; border-radius: 10rpx; float: left}
+.caseRecord .content{ width:70%; position: absolute; left: 0px; top: 20rpx; padding-left: 220rpx;}
+.caseRecord .content .cTitle{ display: block; width: 100%; font-size:26rpx; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.caseRecord .content .tip{ font-size: 20rpx; color: #fff; background-color: #FD8B8C; padding: 0rpx 6rpx}
+.caseRecord .content .progress{float: left; font-size: 22rpx; color:#FF7434}
+.caseRecord .content .time{ color: #999;font-size: 22rpx; margin-right: 20rpx}
+
+
+
+
+
+
+

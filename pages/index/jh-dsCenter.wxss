@@ -1,0 +1,46 @@
+.fl{ float: left}
+.fr{ float: right}
+.oh{ overflow: hidden}
+.dn{ display: none}
+.mb110{ margin-bottom: 110rpx}
+.mt10{ margin-top: 10rpx }
+.mt20{ margin-top: 20rpx}
+.mt40{ margin-top: 40rpx}
+.brn{ border-right: none}
+page{ background-color: #F2F2F2;}
+.jh-dsCenter .attention{ overflow:hidden; background-color: #fff; padding: 20rpx; border-bottom: 1px solid #eee}
+.jh-dsCenter .attention .fl{overflow:hidden;width:78%;}
+.jh-dsCenter .attention .fl .avatar{ position: relative; width: 80rpx; height: 80rpx; float: left}
+.jh-dsCenter .attention .fl .avatar .avatarImg{ width:78rpx; height: 78rpx; border-radius: 50%}
+.jh-dsCenter .attention .fl .avatar .cjV{ width: 26rpx; height: 26rpx; position: absolute; right: 3rpx;bottom: 7rpx}
+.jh-dsCenter .attention .fl .zj-gz{ float: left; margin-left: 20rpx;}
+.jh-dsCenter .attention .fl .zj-gz .title{ font-size: 28rpx;display: block}
+.jh-dsCenter .attention .fl .zj-gz .gzNum{ color: #999; font-size: 24rpx;display: block; margin-top: 10rpx}
+.jh-dsCenter .attention .fr{color:#fff;font-size: 24rpx; background-color:#FF7433; border-radius:40rpx; padding: 10rpx 0rpx; width: 140rpx; text-align: center; margin-top: 15rpx}
+.jh-dsCenter .attention .grey{ background-color: #ccc}
+.jh-dsCenter .content{ margin-top: 20rpx}
+.jh-dsCenter .content .tab{ overflow: hidden; background-color: #fff; border-bottom: 1px solid #eee}
+.jh-dsCenter .content .tab .swiper-tab-list{ width: 50%; text-align: center; float: left; height:80rpx; line-height:80rpx; font-size: 28rpx}
+.jh-dsCenter .content .tab .on{ color: #FF7433; border-bottom:6rpx solid #FF7433} 
+.jh-dsCenter .content .box .imageBox{ width: 100%}
+.jh-dsCenter .content .box .jh-jpkc{ background-color: #fff}
+.jh-dsCenter .content .box .jh-jpkc .lists{ position: relative; margin-bottom: 20rpx; overflow: hidden; padding: 20rpx; border-bottom: 1px solid #eee}
+.jh-dsCenter .content .box .jh-jpkc .indexCimg{ width:180rpx; height: 120rpx; border-radius: 10rpx; float: left}
+.jh-dsCenter .content .box .jh-jpkc .content{ width:70%; position: absolute; left: 0px; top: 20rpx; padding-left: 220rpx;}
+.jh-dsCenter .content .box .jh-jpkc .content .cTitle{ display: block; width: 100%; font-size:26rpx; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jh-dsCenter .content .box .jh-jpkc .content .tip{ font-size: 20rpx; color: #fff; background-color: #FD8B8C; padding: 0rpx 6rpx}
+.jh-dsCenter .content .box .jh-jpkc .content .author,.jh-jpkc .content .time{ float: left; font-size: 22rpx; color: #666}
+.jh-dsCenter .content .box .jh-jpkc .content .fenlei,.jh-jpkc .content .num{ float: left; font-size: 22rpx; color: #666; margin-left: 20rpx}
+.jh-dsCenter .content .box .jh-jpkc .content .fenlei{ color: #FF7433}
+.jh-dsCenter .content .box .jh-jpkc .content .price{ color: #f00;font-size: 22rpx; margin-right: 20rpx}
+
+
+
+
+
+
+
+
+
+
+
